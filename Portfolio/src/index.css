@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Vazir-black';
+    src: local('vazir'),url("/fonts/vazir/Vazir-Black.ttf") format("truetype");
+}
+* {
+    font-family: Verdana;
+}
+#home{
+    color: white;
+}
+html
+{
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+section
+{
+    height: 100Vh;
+    scroll-snap-align: center;
+}
+
+
